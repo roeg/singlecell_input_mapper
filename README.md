@@ -24,6 +24,7 @@ The tool then creates 50 realizations of the statistical model described in the 
 closest to the ensemble mean as an output.
 
 ![Model illustration](doc/2.jpg "Model illustration")
+
 Illustration of the statistical model
 
 The ouput of the model can be used for analysis of synaptic innervation or to develop biophysical models of 
