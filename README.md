@@ -13,6 +13,13 @@ Input:
 2. 3D scalar fields describing neural network architecture
 3. Metadata tables describing cell type-specific connection properties
 
+Software dependencies:
+numpy >= 1.6.2 (may work with older versions, but no guarantees)
+
+Usage:
+
+`python map_singlecell_inputs.py [morphology filename] [postsynaptic cell type name]`
+
 The tool then creates 50 realizations of the statistical model described in the link above and provides the realization 
 closest to the ensemble mean as an output.
 
